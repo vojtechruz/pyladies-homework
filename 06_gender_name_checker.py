@@ -1,7 +1,8 @@
+# -*- coding: UTF-8 -*-
 # Napiš program, který se zeptá na příjmení uživatelky/uživatele, a zkusí podle něj uhodnout její/jeho
 # pohlaví.
 
-prijmeni = '';
+prijmeni = ''
 while prijmeni == '':
     prijmeni = input('Zadej svoje prijmeni.')
 

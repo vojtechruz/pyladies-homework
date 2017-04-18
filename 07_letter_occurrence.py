@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 # Najdi na internetu text své oblíbené písně, zkopíruj si ho do řetězce, a zjisti, kolikrát je v něm použito
 # písmeno K
 
