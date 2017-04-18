@@ -2,9 +2,10 @@
 # Zmen program tak, aby se hralo na mrizce o velikosti zadane uzivatelem, ne 20 napevno.
 
 import random
+velikost = int(input('Zadej velikost mrizky: '))
 
 def piskvorky1d():
-    herni_pole = "-" * 20
+    herni_pole = "-" * velikost
     na_tahu = "x"
 
     while True:
@@ -31,10 +32,10 @@ def piskvorky1d():
 
 def tah_hrace(herni_pole):
     while True:
-        cislo_policka = input("Zadej cislo policka 0-19: ")
+        cislo_policka = input("Zadej cislo policka 0-{}: ".format(velikost-1))
         cislo_policka = int(cislo_policka)
-        if cislo_policka < 0 or cislo_policka > 19:
-            print("Prosim zadej cislo v rozmezi 0-19.")
+        if cislo_policka < 0 or cislo_policka > (velikost-1):
+            print("Prosim zadej cislo v rozmezi 0-{}: ".format(velikost-1))
         elif herni_pole[cislo_policka] != "-":
             print("Policko {} je obsazene, vyber prosim jine.".format(cislo_policka))
         else:
