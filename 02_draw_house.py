@@ -1,3 +1,7 @@
+# -*- coding: UTF-8 -*-
+# Napiš funkci, která vykreslí domeček dané velikosti.
+# (t.j. velikost se zadá argumentem)
+
 from turtle import forward, left, right, exitonclick
 from math import sqrt
 
