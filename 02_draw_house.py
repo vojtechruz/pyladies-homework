@@ -23,6 +23,6 @@ def draw_house(size):
     right(90)
     forward(size)
 
-house_size = input("Zadej velikost domecku:")
+house_size = input("Zadej velikost domecku: ")
 draw_house(house_size)
 exitonclick()

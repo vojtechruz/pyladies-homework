@@ -4,7 +4,7 @@
 
 prijmeni = ''
 while prijmeni == '':
-    prijmeni = input('Zadej svoje prijmeni.')
+    prijmeni = input('Zadej svoje prijmeni. ')
 
     if prijmeni.endswith('á') or prijmeni.endswith('ova'):
         print('Jsi zena')
