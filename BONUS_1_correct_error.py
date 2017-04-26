@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 #Najdi 4 chyby v programu, oprav je. Vytvor Pull request s opravou.
+
 import random # 1. chyba, ten radek chybel
 
 def piskvorky1d():
@@ -45,7 +46,7 @@ def tah(herni_pole, cislo_policka, symbol):
 def tah_pocitace(herni_pole):
 
     while True:
-        cislo_policka = random.randrange(len(herni_pole))
+        cislo_policka = randrange(len(herni_pole))
         if herni_pole[cislo_policka] == "-":
             return tah(herni_pole, cislo_policka, "o")
 
